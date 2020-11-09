@@ -1,1 +1,1 @@
-Домашка 7,8/ ДЗ все залил, ключи создал, все подключил. git clone и коммиты в репозиториях Practice и praktika-gita
+Домашка 7,8/ ДЗ все залил, ключи создал, все подключил. git clone и коммиты в репозиториях git-pull-practice, Practice и praktika-gita
