@@ -1,0 +1,46 @@
+#my_name{
+	font-weight: 700;
+	text-align: left;
+	opacity: 0.8;
+	text-align: center;
+	box-shadow: 3px 3px 7px #000000;
+}
+
+#languages_list{
+	border: 3px dashed #323232;
+	margin-right: 55%;
+	background-color: #00FDFF;
+}
+
+ul{
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#img_cripper{
+	box-shadow: 3px 3px 7px #000000;
+	opacity: 0.9;
+}
+
+#films{
+	font-weight: 500;
+	font-size: 20px;
+	opacity: 0.9;
+}
+
+#my_text{
+	font-size: 16px;
+	color: black;
+	background-color: #EFDEFE;
+	border: 1px solid #323232;
+	opacity: 0.7;
+	text-align: left;
+	border-radius: 10px;
+}
+
+body{
+	background-image: url(https://nz4.ru/wp-content/uploads/2014/12/94.jpg);
+}
+
+
+
