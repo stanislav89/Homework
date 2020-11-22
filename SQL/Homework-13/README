@@ -1,0 +1,6 @@
+1) select title, info from producer inner join model on (model.id = producer.info_id); - INNER - объединение  model и producer.
+2) select title, info from producer left join model on (model.id = producer.info_id); - LEFT - объединение всего, если нет соответствия - пусто.
+3) select title from producer where not exists (select * from model where producer.info_id = model.id); - EXISTS - каким продюссерам(странам) не найдены модели (Czech).
+4) select title, info from producer right join model on (producer.info_id = model.id); - RIGHT - соответствия с пустотой, если модели не найден продюссер.
+5) select title, info from producer left join model on (producer.info_id = model.id) union select title, info from producer right join model on (producer.info_id = model.id); - INION - все модели и все продюссеры соответственно.
+6) select title, info from producer full join model on (producer.info_id = model.id); - FULL JOIN - аналогично UNION, короче запись.
