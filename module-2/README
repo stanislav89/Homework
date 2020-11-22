@@ -1,3 +1,3 @@
 1) select concat ('We have ', count(*), ' boys') gender from people where gender = 'm';
 2) select concat ('We have ', count(*), ' girls') gender from people where gender = 'f';
-3)select concat ('This is ', name, ', he has email ', email) from people;
+3) select concat ('This is ', name, ', he has email ', email) from people;
