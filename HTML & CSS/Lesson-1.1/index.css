@@ -1,0 +1,46 @@
+body{
+	background-attachment: fixed;
+}
+
+#div1{
+	font-weight: 600;
+	font-size: 20px;
+}
+
+#div2{
+	font-weight: 600;
+	font-size: 20px;
+}
+
+#header{
+	margin-left: 1%;
+	font-weight: 700;
+	text-align: left;
+}
+
+#me{
+	font-weight: 600;
+	font-size: 20px;
+	color: #000067;
+}
+
+#date{
+	font-style: oblique;
+}
+
+#verstka{
+	font-weight: bold;
+}
+
+#div3{
+	margin-left: 2%;
+	font-size: 18px;
+}
+
+#mark{
+	background-color: yellow;
+}
+
+#red{
+	color: red;
+}
