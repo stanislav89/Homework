@@ -24,7 +24,11 @@ function search(items) {
         let p = document.createElement('p');
         p.innerHTML = `Name: ${items[i]['show']['name']}`;
         let img = document.createElement('img');
-        img.setAttribute('src', `${items[i]['show']['image']['medium']}`);
+        if (items[i]['show']['image']){
+            img.setAttribute('src', `${items[i]['show']['image']['medium']}`);
+        } else {
+            img.setAttribute('src', 'https://ziz.ua/image/cart/No_Image.jpg')
+        }
         div.appendChild(p);
         div.appendChild(img);
         films.appendChild(div);
