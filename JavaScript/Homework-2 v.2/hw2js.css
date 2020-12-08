@@ -1,0 +1,54 @@
+body {
+  background: #D7FEF9;
+}
+
+h2 {
+    font-style: inherit;
+    font-weight: 600;
+    font-size: 30px;
+    text-shadow: 4px 4px 8px #6F6F6F;
+}
+#movie {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+#user_input {
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+#user_input:focus {
+  outline: none;
+}
+#search {
+  width: 140px;
+  height: 45px;
+  text-align: center;
+  font-size: 11px;
+  border-radius: 30px;
+  margin: 20px 30px;
+  letter-spacing: 5px;
+  font-weight: 800;
+  box-shadow: 6px 6px 10px #000000;
+  text-transform: capitalize;
+  transition: 0.2s;
+}
+#search:hover {
+  background: lime;
+  box-shadow: 9px 9px 10px #000000;
+  color: white;
+  transform: scale(1.2);
+}
+
+#films {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  padding: 10px;
+}
